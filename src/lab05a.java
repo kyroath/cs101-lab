@@ -1,5 +1,11 @@
 import java.util.Scanner;
 
+/**
+ * __Draw rectangles according to the height, width and thickness___
+ * @author __Fatih Karahan___
+ * @version __30.10.2017__
+ */
+
 public class lab05a {
 
     public static void main(String[] args) {

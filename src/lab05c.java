@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * __A simple calculator capable of +,-.*,/,sin operations___
+ * @author __Fatih Karahan___
+ * @version __30.10.2017__
+ */
+
+
 public class lab05c {
 
     private static void printMenu( double value ) {

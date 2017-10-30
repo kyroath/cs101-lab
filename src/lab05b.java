@@ -1,5 +1,12 @@
 import java.util.Scanner;
 
+/**
+ * __Draw tables with corresponding cells: Row&Column number, The Product, Cell Number, Only Rows___
+ * @author __Fatih Karahan___
+ * @version __30.10.2017__
+ */
+
+
 public class lab05b {
 
     public static void printSpaces(int until) {
