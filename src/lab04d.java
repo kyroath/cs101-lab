@@ -8,9 +8,9 @@ import java.util.Scanner;
 
 public class lab04d {
 
-    public static void main(String[] args) {
+    public static void main( String[] args ) {
 
-        Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner( System.in );
 
         // constants
 
@@ -27,20 +27,20 @@ public class lab04d {
         i = j = 0;
 
         temp = scan.next();
-        character = temp.charAt(0);
+        character = temp.charAt( 0 );
         size = scan.nextInt();
 
-        while (i < size) {
+        while ( i < size ) {
 
             j = 0;
-            while (j < i + 1) {
+            while ( j < i + 1 ) {
 
-                System.out.format("%c", character);
+                System.out.format( "%c", character );
                 j++;
             }
 
-            if (i != size - 1)
-                System.out.format("\n");
+            if ( i != size - 1 )
+                System.out.format( "\n" );
             i++;
         }
 
